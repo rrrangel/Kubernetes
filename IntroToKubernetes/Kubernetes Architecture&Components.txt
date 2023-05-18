@@ -1,0 +1,5 @@
+
+Get a list of system pods running in the cluster:
+kubectl get pods -n kube-system
+Check the status of the kubelet service:
+sudo systemctl status kubelet

@@ -1,0 +1,8 @@
+Nodes are an essential part of the Kubernetes cluster. They are the machines where your cluster's container workloads are
+executed. In this lesson, we will discuss what nodes are in Kubernetes, and we will explore some ways in which you can find
+information about nodes in your cluster.
+
+Get a list of nodes:
+kubectl get nodes
+Get more information about a specific node:
+kubectl describe node $node_name
